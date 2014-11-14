@@ -1,7 +1,7 @@
 #PHP Social Media Posts
 
 ##Requirements
-Succesfully tested on PHP 5.4 & 5.5. It should work on 5.3 but it's not tested.
+Succesfully tested on PHP 5.4 & 5.5. It should work on 5.3 but it hasn't been tested.
 
 [APC](http://php.net/manual/en/book.apc.php) is required for caching to work (optional).
 
