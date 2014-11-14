@@ -1,5 +1,7 @@
 #PHP Social Media Posts
 
+A collection of PHP classes to get posts from popular social media networks in a standard format.
+
 ##Requirements
 Succesfully tested on PHP 5.4 & 5.5. It should work on 5.3 but it hasn't been tested.
 
