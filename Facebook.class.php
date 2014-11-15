@@ -18,6 +18,8 @@ class Facebook extends SocialMedia {
         $this->app_key     = $app_key;
         $this->app_secret  = $app_secret;
         $this->facebook_id = $facebook_id;
+
+        $this->cache_key = $this->cache_key . $facebook_id;
     }
 
     public function loadPosts($start = 0, $count = 1)

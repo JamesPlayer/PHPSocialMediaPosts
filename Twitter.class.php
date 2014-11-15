@@ -19,6 +19,8 @@ class Twitter extends SocialMedia
         $this->user_secret         = $user_secret;
         $this->screen_name         = $screen_name;
         $this->user_token          = $user_token;
+
+        $this->cache_key = $this->cache_key . $screen_name;
     }
 
     /**

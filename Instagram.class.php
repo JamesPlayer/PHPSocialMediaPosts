@@ -15,6 +15,8 @@ class Instagram extends SocialMedia
         $this->app_secret   = $app_secret;
         $this->instagram_id = $instagram_id;
         $this->endpoint     = $endpoint;
+
+        $this->cache_key = $this->cache_key . $instagram_id . $endpoint;
     }
 
     public function loadPosts($start = 0, $count = 1)
